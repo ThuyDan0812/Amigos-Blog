@@ -1,0 +1,32 @@
+/* Reset margins and prevent scrolling */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #050505; /* Deep Ikeda black */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container to perfectly scale the 1920x1080 canvas */
+#canvas-container {
+  position: relative;
+  width: 100vw;
+  height: 56.25vw; /* 16:9 Aspect Ratio calculation */
+  max-height: 100vh;
+  max-width: 177.78vh; /* 16:9 Aspect Ratio calculation */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+}
+
+/* Force canvas to fill the container exactly */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
