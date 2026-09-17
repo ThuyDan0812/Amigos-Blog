@@ -47,16 +47,16 @@ const CorruptionOperator = {
 
 window.addEventListener("DOMContentLoaded", () => {
   const heartbeatPool = [
-    "edited-sounds/heartbeat1.wav",
-    "edited-sounds/heartbeat2.wav",
+    "edited-sound/heartbeat1.wav",
+    "edited-sound/heartbeat2.wav",
   ];
   const keyboardPool = [
-    "edited-sounds/keyboard1.wav",
-    "edited-sounds/keyboard2.wav",
+    "edited-sound/keyboard1.wav",
+    "edited-sound/keyboard2.wav",
   ];
   const chimePool = [
-    "edited-sounds/message-chime.wav",
-    "edited-sounds/message-chime2.wav",
+    "edited-sound/message-chime.wav",
+    "edited-sound/message-chime2.wav",
   ];
 
   try {
