@@ -308,9 +308,9 @@ const interactivePostSketch = (p) => {
 
     hoverSounds = [
 
-      new Audio("edited-sounds/ping.wav"), 
+      new Audio("edited-sound/ping.wav"), 
 
-      new Audio("edited-sounds/ping2.wav")
+      new Audio("edited-sound/ping2.wav")
 
     ];
 
